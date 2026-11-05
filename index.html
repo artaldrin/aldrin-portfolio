@@ -12,12 +12,12 @@
     <nav class="nav">
         <div class="nav-container">
             <a href="#home" class="nav-logo">TAG</a>
-            <button class="nav-toggle" aria-label="Toggle navigation">
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="primary-navigation">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -51,7 +51,7 @@
             <div class="about-content">
                 <div class="about-image">
                     <div class="about-image-wrapper">
-                        <img src="assets/images/portrait.jpg" alt="Tawanda Aldrin Guzha" class="about-portrait">
+                        <img src="assets/images/portrait.jpg" srcset="assets/images/portrait-480.jpg 480w, assets/images/portrait.jpg 942w" sizes="(max-width: 768px) 80vw, 400px" width="942" height="1002" loading="lazy" decoding="async" alt="Tawanda Aldrin Guzha" class="about-portrait">
                     </div>
                 </div>
                 <div class="about-text">
@@ -111,7 +111,7 @@
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/graphic-design-1.jpg" alt="Hoodie Design - ARTCORE" class="gallery-image">
+                        <img src="assets/images/graphic-design-1.jpg" srcset="assets/images/graphic-design-1-480.jpg 480w, assets/images/graphic-design-1.jpg 1024w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="1024" height="576" loading="lazy" decoding="async" alt="Hoodie Design - ARTCORE" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">Hoodie Design</h3>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/graphic-design-2.jpg" alt="Business Card Design" class="gallery-image">
+                        <img src="assets/images/graphic-design-2.jpg" srcset="assets/images/graphic-design-2-480.jpg 480w, assets/images/graphic-design-2.jpg 1024w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="1024" height="576" loading="lazy" decoding="async" alt="Business Card Design" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">Business Card Design</h3>
@@ -129,7 +129,7 @@
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/graphic-design-3.jpg" alt="Tote Bag Design" class="gallery-image">
+                        <img src="assets/images/graphic-design-3.jpg" srcset="assets/images/graphic-design-3-480.jpg 480w, assets/images/graphic-design-3.jpg 1024w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="1024" height="576" loading="lazy" decoding="async" alt="Tote Bag Design" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">Tote Bag Design</h3>
@@ -138,7 +138,7 @@
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/graphic-design-4.jpg" alt="Logo Design" class="gallery-image">
+                        <img src="assets/images/graphic-design-4.jpg" srcset="assets/images/graphic-design-4-480.jpg 480w, assets/images/graphic-design-4.jpg 1024w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="1024" height="576" loading="lazy" decoding="async" alt="Logo Design" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">Logo Design</h3>
@@ -147,7 +147,7 @@
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/graphic-design-5.jpg" alt="T-Shirt Designs" class="gallery-image">
+                        <img src="assets/images/graphic-design-5.jpg" srcset="assets/images/graphic-design-5-480.jpg 480w, assets/images/graphic-design-5.jpg 1024w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="1024" height="576" loading="lazy" decoding="async" alt="T-Shirt Designs" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">T-Shirt Designs</h3>
@@ -220,7 +220,7 @@
                 <div class="gallery-grid">
                     <div class="gallery-item">
                         <div class="gallery-image-wrapper">
-                            <img src="assets/images/ai-1.jpg" alt="AI-Generated Portrait" class="gallery-image">
+                            <img src="assets/images/ai-1.jpg" srcset="assets/images/ai-1-480.jpg 480w, assets/images/ai-1.jpg 819w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="819" height="1024" loading="lazy" decoding="async" alt="AI-Generated Portrait" class="gallery-image">
                         </div>
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">AI Portrait Generation</h3>
@@ -229,7 +229,7 @@
                     </div>
                     <div class="gallery-item">
                         <div class="gallery-image-wrapper">
-                            <img src="assets/images/ai-2.jpg" alt="AI Composite Art" class="gallery-image">
+                            <img src="assets/images/ai-2.jpg" srcset="assets/images/ai-2-480.jpg 480w, assets/images/ai-2.jpg 819w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="819" height="1024" loading="lazy" decoding="async" alt="AI Composite Art" class="gallery-image">
                         </div>
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">AI Composite Art</h3>
@@ -238,7 +238,7 @@
                     </div>
                     <div class="gallery-item">
                         <div class="gallery-image-wrapper">
-                            <img src="assets/images/ai-3.jpg" alt="AI Creative Concept" class="gallery-image">
+                            <img src="assets/images/ai-3.jpg" srcset="assets/images/ai-3-480.jpg 480w, assets/images/ai-3.jpg 818w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="818" height="1024" loading="lazy" decoding="async" alt="AI Creative Concept" class="gallery-image">
                         </div>
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">AI Creative Concept</h3>
@@ -317,7 +317,7 @@
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/fine-art-1.png" alt="Portrait Painting" class="gallery-image">
+                        <img src="assets/images/fine-art-1.png" width="200" height="200" loading="lazy" decoding="async" alt="Portrait Painting" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">Portrait Painting</h3>
@@ -326,7 +326,7 @@
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/fine-art-2.jpg" alt="Portrait Drawing" class="gallery-image">
+                        <img src="assets/images/fine-art-2.jpg" srcset="assets/images/fine-art-2-480.jpg 480w, assets/images/fine-art-2.jpg 768w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="768" height="1024" loading="lazy" decoding="async" alt="Portrait Drawing" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">Portrait Drawing</h3>
@@ -335,7 +335,7 @@
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/fine-art-3.jpg" alt="Graduation Event" class="gallery-image">
+                        <img src="assets/images/fine-art-3.jpg" srcset="assets/images/fine-art-3-480.jpg 480w, assets/images/fine-art-3.jpg 1024w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="1024" height="680" loading="lazy" decoding="async" alt="Graduation Event" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">Graduation Event</h3>
@@ -344,7 +344,7 @@
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/fine-art-4.jpg" alt="Portrait Presentation" class="gallery-image">
+                        <img src="assets/images/fine-art-4.jpg" srcset="assets/images/fine-art-4-480.jpg 480w, assets/images/fine-art-4.jpg 1024w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="1024" height="680" loading="lazy" decoding="async" alt="Portrait Presentation" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">Portrait Presentation</h3>
@@ -353,7 +353,7 @@
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="assets/images/fine-art-5.jpg" alt="Character Drawing" class="gallery-image">
+                        <img src="assets/images/fine-art-5.jpg" srcset="assets/images/fine-art-5-480.jpg 480w, assets/images/fine-art-5.jpg 768w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 560px" width="768" height="1024" loading="lazy" decoding="async" alt="Character Drawing" class="gallery-image">
                     </div>
                     <div class="gallery-item-info">
                         <h3 class="gallery-item-title">Character Drawing</h3>
@@ -548,6 +548,12 @@
             <p>&copy; 2025 Tawanda Aldrin Guzha. All rights reserved.</p>
         </div>
     </footer>
+
+    <dialog class="image-lightbox" aria-label="Full-size image preview">
+        <button class="lightbox-close" type="button" aria-label="Close image preview">Close</button>
+        <img class="lightbox-image" alt="">
+        <p class="lightbox-caption"></p>
+    </dialog>
 
     <script src="script.js"></script>
 </body>
